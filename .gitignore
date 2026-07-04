@@ -1,0 +1,29 @@
+# PyCharm / IntelliJ IDEA
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.h5
+*.pb
+
+# Training outputs
+runs/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db

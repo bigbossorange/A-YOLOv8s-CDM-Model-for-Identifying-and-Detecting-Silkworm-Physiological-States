@@ -1,0 +1,12 @@
+train: # train images
+val: # val images
+
+# number of classes
+nc: 80
+
+# class names
+names: ['']
+
+
+
+#yolo task=detect mode=train model=yolov8s.yaml data=coco.yaml device=0 epochs=300 batch=16 imgsz=640 workers=8
